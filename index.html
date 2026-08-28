@@ -176,6 +176,32 @@
   <footer>
     <p>© 2026 RIMJHIM ENTERPRISES. All Rights Reserved.</p>
   </footer>
+<div id="productPopup" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999;">
+  <div style="background:white; width:90%; max-width:400px; margin:10% auto; padding:20px; border-radius:15px; text-align:center;">
+    
+    <button onclick="closeProduct()" style="float:right; font-size:25px;">✕</button>
 
+    <img src="IMG-20260821-WA0001.jpg" style="width:100%; border-radius:10px;">
+
+    <h2>Ronak E-Rickshaw</h2>
+    <p>Electric Toto available for sale.</p>
+    <p><b>Price:</b> Contact for Price</p>
+
+    <a href="tel:+918709931852" style="display:block; background:green; color:white; padding:12px; border-radius:8px; text-decoration:none;">
+      📞 Contact Now
+    </a>
+
+  </div>
+</div>
+
+<script>
+function openProduct() {
+  document.getElementById("productPopup").style.display = "block";
+}
+
+function closeProduct() {
+  document.getElementById("productPopup").style.display = "none";
+}
+</script>
 </body>
 </html>
